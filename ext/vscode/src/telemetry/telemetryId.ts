@@ -14,6 +14,9 @@ export enum TelemetryId {
     // Reported when extension is activated.
     Deactivation = 'azure-dev.deactivate',
 
+    // Reported when the CLI is installed.
+    InstallCli = 'azure-dev.install-cli',
+
     // Reported when "dotenv" task is executed.
     // The result and total duration is reported for all task outcomes.
     // If the task fails, the reason for failure is reported via 'error' property.
